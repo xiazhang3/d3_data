@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>D3 Graphic</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+
+    path { 
+        stroke-width: 3;
+        fill: none;
+    }
+
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: grey;
+        stroke-width: 1;
+        shape-rendering: crispEdges;
+    }
+
+    div.info {
+        position: absolute;    
+        text-align: center;    
+        width: 60px;    
+        height: 28px;        
+        padding: 2px;    
+        font: 12px sans-serif;    
+        background: yellow;    
+        border: 0px;                    
+        border-radius: 8px;
+      /*  pointer-events: none;    This line needs to be removed */       
+    }
+
+</style>
+</head>
+<body>
+
+<!-- load the d3.js library -->    
+<script type=
+    "text/javascript" src="http://d3js.org/d3.v3.min.js">
+</script>
+
+<script src="graph.js"></script> 
+
+
+
+
+</body>
